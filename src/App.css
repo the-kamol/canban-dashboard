@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  text-align: center;
+  width: 100vw;
+  max-height: 100vh;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+}
